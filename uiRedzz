@@ -35,39 +35,39 @@ local r = {
                 ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 30, 30)),
                 ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 20, 20))
             },
-			Primary = Color3.fromRGB(170, 0, 255),  -- Tím sáng
-            OnPrimary = Color3.fromRGB(130, 0, 200),   -- Tím đậm
-            ScrollBar = Color3.fromRGB(80, 80, 80),   -- Xám scroll bar
-            Stroke = Color3.fromRGB(50, 50, 50),      -- Stroke đen
+			Primary = Color3.fromRGB(0, 120, 215),  
+            OnPrimary = Color3.fromRGB(0, 120, 215),  
+            ScrollBar = Color3.fromRGB(80, 80, 80),
+            Stroke = Color3.fromRGB(50, 50, 50),
 
-            Error = Color3.fromRGB(255, 50, 50),      -- Giữ đỏ cho error để nổi bật
-            Icons = Color3.fromRGB(232, 233, 235),    -- Giữ icon trắng xám
+            Error = Color3.fromRGB(255, 50, 50),
+            Icons = Color3.fromRGB(232, 233, 235),
 
-            JoinButton = Color3.fromRGB(90, 90, 90),  -- Xám cho join button
-            Link = Color3.fromRGB(130, 130, 130),     -- Xám sáng cho link
+            JoinButton = Color3.fromRGB(0, 120, 215),  -- 🔵 Xanh nước biển cho nút "Go to Server"
+            Link = Color3.fromRGB(64, 156, 255),       -- 🔵 Xanh nước biển sáng cho link
 
             Dialog = {
-                Background = Color3.fromRGB(30, 30, 30)  -- Đen cho dialog
+                Background = Color3.fromRGB(30, 30, 30)
             },
             Buttons = {
-                Holding = Color3.fromRGB(40, 40, 40),    -- Đen tối khi hold
-                Default = Color3.fromRGB(35, 35, 35)     -- Đen mặc định
+                Holding = Color3.fromRGB(40, 40, 40),
+                Default = Color3.fromRGB(35, 35, 35)
             },
             Border = {
-                Holding = Color3.fromRGB(80, 80, 80),    -- Xám khi hold
-                Default = Color3.fromRGB(60, 60, 60),    -- Xám mặc định
+                Holding = Color3.fromRGB(0, 120, 215),  
+                Default = Color3.fromRGB(60, 60, 60),
             },
             Text = {
-                Default = Color3.fromRGB(255, 255, 255), -- Giữ trắng cho text
+                Default = Color3.fromRGB(255, 255, 255),
                 Dark = Color3.fromRGB(220, 220, 220),
                 Darker = Color3.fromRGB(200, 200, 200),
             },
             Slider = {
-                SliderBar = Color3.fromRGB(130, 0, 200),  -- Tím đậm cho slider bar
-                SliderNumber = Color3.fromRGB(200, 200, 200),  -- Xám sáng cho số
+                SliderBar = Color3.fromRGB(0, 120, 215), 
+                SliderNumber = Color3.fromRGB(0, 120, 215), 
             },
             Dropdown = {
-                Holder = Color3.fromRGB(30, 30, 30),     -- Đen cho dropdown holder
+                Holder = Color3.fromRGB(30, 30, 30),
             }
         },
         Icons = {
@@ -98,42 +98,42 @@ local r = {
                 ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 30, 30)),
                 ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 20, 20))
             },
-			Primary = Color3.fromRGB(170, 0, 255),  -- Tím sáng
-            OnPrimary = Color3.fromRGB(130, 0, 200),   -- Tím đậm
-            ScrollBar = Color3.fromRGB(80, 80, 80),   -- Xám scroll bar
-            Stroke = Color3.fromRGB(50, 50, 50),      -- Stroke đen
+            Primary = Color3.fromRGB(0, 120, 215),  
+            OnPrimary = Color3.fromRGB(0, 120, 215),  
+            ScrollBar = Color3.fromRGB(80, 80, 80),
+            Stroke = Color3.fromRGB(50, 50, 50),
 
-            Error = Color3.fromRGB(255, 50, 50),      -- Giữ đỏ cho error để nổi bật
-            Icons = Color3.fromRGB(232, 233, 235),    -- Giữ icon trắng xám
+            Error = Color3.fromRGB(255, 50, 50),
+            Icons = Color3.fromRGB(232, 233, 235),
 
-            JoinButton = Color3.fromRGB(90, 90, 90),  -- Xám cho join button
-            Link = Color3.fromRGB(130, 130, 130),     -- Xám sáng cho link
+            JoinButton = Color3.fromRGB(0, 120, 215),  -- 🔵 Xanh nước biển cho nút "Go to Server"
+            Link = Color3.fromRGB(64, 156, 255),       -- 🔵 Xanh nước biển sáng cho link
 
             Dialog = {
-                Background = Color3.fromRGB(30, 30, 30)  -- Đen cho dialog
+                Background = Color3.fromRGB(30, 30, 30)
             },
             Buttons = {
-                Holding = Color3.fromRGB(40, 40, 40),    -- Đen tối khi hold
-                Default = Color3.fromRGB(35, 35, 35)     -- Đen mặc định
+                Holding = Color3.fromRGB(40, 40, 40),
+                Default = Color3.fromRGB(35, 35, 35)
             },
             Border = {
-                Holding = Color3.fromRGB(80, 80, 80),    -- Xám khi hold
-                Default = Color3.fromRGB(60, 60, 60),    -- Xám mặc định
+                Holding = Color3.fromRGB(0, 120, 215),
+                Default = Color3.fromRGB(60, 60, 60),
             },
             Text = {
-                Default = Color3.fromRGB(255, 255, 255), -- Giữ trắng cho text
+                Default = Color3.fromRGB(255, 255, 255),
                 Dark = Color3.fromRGB(220, 220, 220),
                 Darker = Color3.fromRGB(200, 200, 200),
             },
             Slider = {
-                SliderBar = Color3.fromRGB(130, 0, 200),  -- Tím đậm cho slider bar
-                SliderNumber = Color3.fromRGB(200, 200, 200),  -- Xám sáng cho số
+                SliderBar = Color3.fromRGB(0, 120, 215),
+                SliderNumber = Color3.fromRGB(0, 120, 215),
             },
             Dropdown = {
-                Holder = Color3.fromRGB(30, 30, 30),     -- Đen cho dropdown holder
+                Holder = Color3.fromRGB(30, 30, 30),
             }
         },
-        Icons = {  -- Giữ nguyên icons từ Darker
+        Icons = {
             Error = "rbxassetid://10709752996",
             Button = "rbxassetid://10709791437",
             Close = "rbxassetid://10747384394",
@@ -145,17 +145,16 @@ local r = {
                 Close = "rbxassetid://10709790948"
             }
         },
-        Font = {  -- Giữ nguyên font
+        Font = {
             Normal = Enum.Font.BuilderSans,
             Medium = Enum.Font.BuilderSansMedium,
             Bold = Enum.Font.BuilderSansBold,
             ExtraBold = Enum.Font.BuilderSansExtraBold,
             SliderValue = Enum.Font.FredokaOne
         },
-        BackgroundTransparency = 0.03  -- Giữ nguyên transparency
+        BackgroundTransparency = 0.03
     }
 }
-
 for s,t in r do
 	t.Name=s
 	table.freeze(t)
