@@ -35,39 +35,39 @@ local r = {
                 ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 30, 30)),
                 ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 20, 20))
             },
-            Primary = Color3.fromRGB(255, 100, 100),
-            OnPrimary = Color3.fromRGB(200, 70, 70),
-            ScrollBar = Color3.fromRGB(180, 80, 80),
-            Stroke = Color3.fromRGB(120, 50, 50),
+			Primary = Color3.fromRGB(100, 100, 100),  -- Xám sáng thay đỏ
+            OnPrimary = Color3.fromRGB(70, 70, 70),   -- Xám tối hơn
+            ScrollBar = Color3.fromRGB(80, 80, 80),   -- Xám scroll bar
+            Stroke = Color3.fromRGB(50, 50, 50),      -- Stroke đen
 
-            Error = Color3.fromRGB(255, 120, 120),
-            Icons = Color3.fromRGB(232, 233, 235),
+            Error = Color3.fromRGB(255, 50, 50),      -- Giữ đỏ cho error để nổi bật
+            Icons = Color3.fromRGB(232, 233, 235),    -- Giữ icon trắng xám
 
-            JoinButton = Color3.fromRGB(240, 90, 90),
-            Link = Color3.fromRGB(255, 130, 130),
+            JoinButton = Color3.fromRGB(90, 90, 90),  -- Xám cho join button
+            Link = Color3.fromRGB(130, 130, 130),     -- Xám sáng cho link
 
             Dialog = {
-                Background = Color3.fromRGB(120, 30, 30)
+                Background = Color3.fromRGB(30, 30, 30)  -- Đen cho dialog
             },
             Buttons = {
-                Holding = Color3.fromRGB(140, 40, 40),
-                Default = Color3.fromRGB(110, 35, 35)
+                Holding = Color3.fromRGB(40, 40, 40),    -- Đen tối khi hold
+                Default = Color3.fromRGB(35, 35, 35)     -- Đen mặc định
             },
             Border = {
-                Holding = Color3.fromRGB(200, 80, 80),
-                Default = Color3.fromRGB(150, 60, 60),
+                Holding = Color3.fromRGB(80, 80, 80),    -- Xám khi hold
+                Default = Color3.fromRGB(60, 60, 60),    -- Xám mặc định
             },
             Text = {
-                Default = Color3.fromRGB(255, 255, 255),
+                Default = Color3.fromRGB(255, 255, 255), -- Giữ trắng cho text
                 Dark = Color3.fromRGB(220, 220, 220),
                 Darker = Color3.fromRGB(200, 200, 200),
             },
             Slider = {
-                SliderBar = Color3.fromRGB(200, 70, 70),
-                SliderNumber = Color3.fromRGB(255, 200, 200),
+                SliderBar = Color3.fromRGB(70, 70, 70),  -- Xám cho slider bar
+                SliderNumber = Color3.fromRGB(200, 200, 200),  -- Xám sáng cho số
             },
             Dropdown = {
-                Holder = Color3.fromRGB(110, 30, 30),
+                Holder = Color3.fromRGB(30, 30, 30),     -- Đen cho dropdown holder
             }
         },
         Icons = {
