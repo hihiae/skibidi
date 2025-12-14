@@ -31,9 +31,9 @@ local r = {
     Darker = {
         Colors = {
             Background = ColorSequence.new{
-                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(60, 20, 20)),
-                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(100, 30, 30)),
-                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(60, 20, 20))
+                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 20, 20)),
+                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 30, 30)),
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 20, 20))
             },
             Primary = Color3.fromRGB(255, 100, 100),
             OnPrimary = Color3.fromRGB(200, 70, 70),
@@ -166,7 +166,7 @@ local s={
 	GitHubOwner="tlredz"
 },
 Default={
-	Theme="Black",
+	Theme="Darker",
 	UISize=UDim2.fromOffset(550,380),
 	TabSize=160
 },
