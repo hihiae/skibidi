@@ -35,8 +35,8 @@ local r = {
                 ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 30, 30)),
                 ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 20, 20))
             },
-			Primary = Color3.fromRGB(100, 100, 100),  -- Xám sáng thay đỏ
-            OnPrimary = Color3.fromRGB(70, 70, 70),   -- Xám tối hơn
+			Primary = Color3.fromRGB(170, 0, 255),  -- Tím sáng
+            OnPrimary = Color3.fromRGB(130, 0, 200),   -- Tím đậm
             ScrollBar = Color3.fromRGB(80, 80, 80),   -- Xám scroll bar
             Stroke = Color3.fromRGB(50, 50, 50),      -- Stroke đen
 
@@ -63,7 +63,7 @@ local r = {
                 Darker = Color3.fromRGB(200, 200, 200),
             },
             Slider = {
-                SliderBar = Color3.fromRGB(70, 70, 70),  -- Xám cho slider bar
+                SliderBar = Color3.fromRGB(130, 0, 200),  -- Tím đậm cho slider bar
                 SliderNumber = Color3.fromRGB(200, 200, 200),  -- Xám sáng cho số
             },
             Dropdown = {
@@ -98,8 +98,8 @@ local r = {
                 ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 30, 30)),
                 ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 20, 20))
             },
-            Primary = Color3.fromRGB(100, 100, 100),  -- Xám sáng thay đỏ
-            OnPrimary = Color3.fromRGB(70, 70, 70),   -- Xám tối hơn
+			Primary = Color3.fromRGB(170, 0, 255),  -- Tím sáng
+            OnPrimary = Color3.fromRGB(130, 0, 200),   -- Tím đậm
             ScrollBar = Color3.fromRGB(80, 80, 80),   -- Xám scroll bar
             Stroke = Color3.fromRGB(50, 50, 50),      -- Stroke đen
 
@@ -126,7 +126,7 @@ local r = {
                 Darker = Color3.fromRGB(200, 200, 200),
             },
             Slider = {
-                SliderBar = Color3.fromRGB(70, 70, 70),  -- Xám cho slider bar
+                SliderBar = Color3.fromRGB(130, 0, 200),  -- Tím đậm cho slider bar
                 SliderNumber = Color3.fromRGB(200, 200, 200),  -- Xám sáng cho số
             },
             Dropdown = {
